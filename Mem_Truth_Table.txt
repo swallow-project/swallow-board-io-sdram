@@ -1,0 +1,15 @@
+DQM: L:= data Output enable ; H := data output disable
+
+
+Assume latches share the SDRAM clock.
+		ADR_Latch_Input_En | ADR_Latch_OE | Ctrl_IE | Ctrl_OE | DQM
+
+Load row:              1                  X            0         1    |  X
+Load column:           1                  X            0         1    |  X
+Load control:          0                  X            1         1    |  X
+SDRAM_ACTIVE:          0                  1            1         1    |  X
+SDRAM_READ             0                  1            1         1    |  0
+SDRAM_WRITE            0                  1            1         1    |  0
+
+
+Can always output ADR and CTRL
