@@ -1,0 +1,31 @@
+PCBNEW-LibModule-V1  Sun 11 Mar 2012 18:50:24 GMT
+# encoding utf-8
+$INDEX
+hole_4mm
+$EndINDEX
+$MODULE hole_4mm
+Po 0 0 0 15 4EE52829 4F5CF3ED ~~
+Li hole_4mm
+Cd 4mm hole
+Kw DEV
+Sc 4F5CF3ED
+AR hole_4mm
+Op 0 0 0
+T0 200 -2700 400 400 0 100 N I 21 N "4mm_hole"
+T1 300 -3300 400 400 0 100 N I 21 N "P***"
+DC -8 -8 1472 -961 150 21
+$PAD
+Sh "1" C 3150 3150 0 0 0
+Dr 1575 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$SHAPE3D
+Na "device/douille_4mm(red).wrl"
+Sc 1.800000 1.800000 1.800000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  hole_4mm
+$EndLIBRARY

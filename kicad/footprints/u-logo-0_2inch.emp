@@ -1,0 +1,1936 @@
+PCBNEW-LibModule-V1  Sun 18 Mar 2012 19:18:49 GMT
+# encoding utf-8
+$INDEX
+u-logo-0_2inch
+$EndINDEX
+$MODULE u-logo-0_2inch
+Po 0 0 0 15 4F663515 4F66350E ~~
+Li u-logo-0_2inch
+Sc 4F66350E
+AR 
+Op 0 0 0
+At VIRTUAL 
+T0 0 -750 600 600 0 120 N I 21 N "u-logo-0_2inch"
+T1 0 600 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" R 19 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -390 -1340
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 19 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 788 -1340
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 76 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -418 -1321
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 76 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 760 -1321
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 133 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -447 -1302
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 133 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 731 -1302
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 190 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -475 -1283
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 190 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 703 -1283
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -513 -1264
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 674 -1264
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 342 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -551 -1245
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 342 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 627 -1245
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -608 -1226
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 570 -1226
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 551 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 -1207
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 551 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 522 -1207
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 -1188
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 513 -1188
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 -1169
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 513 -1169
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 -1150
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 513 -1150
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 -1131
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 513 -1131
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 -1112
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 513 -1112
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 551 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 -1093
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 551 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 522 -1093
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 513 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -637 -1074
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 532 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 532 -1074
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 475 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -618 -1055
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 494 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 551 -1055
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -608 -1036
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 570 -1036
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -1017
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 579 -1017
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -998
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 418 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 589 -998
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -979
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -979
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -960
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -960
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -941
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -941
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -922
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -922
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -903
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -903
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -884
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -884
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -865
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -865
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -846
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -846
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -827
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -827
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -808
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -808
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -789
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -789
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -770
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -770
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -751
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -751
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -732
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -732
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -713
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -713
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -694
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -694
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -675
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -675
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -656
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -656
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -637
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -637
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -618
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -618
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -599
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -599
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -580
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -580
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -561
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -561
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -542
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -542
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -523
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -523
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -504
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -504
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -485
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -485
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -466
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -466
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -447
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -447
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -428
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -428
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -409
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -409
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -390
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -390
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -371
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -371
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -352
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -352
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -333
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -333
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -314
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -314
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -295
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -295
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -276
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -276
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -257
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -257
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -238
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -238
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -219
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -219
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -200
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -200
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -599 -181
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -181
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -589 -162
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -162
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -589 -143
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -143
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -589 -124
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -124
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -589 -105
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -105
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 475 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -580 -86
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -86
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 475 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -580 -67
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -67
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 475 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -580 -48
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -48
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 494 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -570 -29
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -29
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 494 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -570 -10
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 -10
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 513 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -561 9
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 9
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 513 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -561 28
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 28
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 532 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -551 47
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 47
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 532 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -551 66
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 66
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 551 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -542 85
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 85
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -532 104
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 399 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 598 104
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 589 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -523 123
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 437 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 579 123
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 608 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -513 142
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 475 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 560 142
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 627 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -504 161
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 532 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 532 161
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 646 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -494 180
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 608 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 513 180
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 684 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -475 199
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 646 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 494 199
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 722 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -456 218
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 722 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 475 218
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 1672 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 19 237
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 1710 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 38 256
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 1767 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 66 275
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 1786 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 76 294
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 1159 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -238 313
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 684 313
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 332
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 817 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -124 332
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 589 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 693 332
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 351
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 722 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -114 351
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 589 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 693 351
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 370
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 627 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -124 370
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 589 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 693 370
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 389
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 551 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -124 389
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 570 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 684 389
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 408
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 456 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -133 408
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 551 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po 674 408
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 427
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 342 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -133 427
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 446
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 133 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -124 446
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 465
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 247 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -694 484
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 503
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 522
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 541
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 560
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 579
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 598
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 617
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 636
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 655
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 674
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 693
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -684 712
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 731
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 750
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 769
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 788
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 807
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 826
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 845
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 864
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 883
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 902
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 921
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 285 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -675 940
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 959
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 978
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 997
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1016
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1035
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1054
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1073
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1092
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1111
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1130
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -665 1149
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1168
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1187
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1206
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1225
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1244
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1263
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1282
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1301
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1320
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 323 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -656 1339
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 304 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -646 1358
+.LocalClearance 10
+$EndPAD
+$PAD
+Sh "" R 266 19 0 0 0
+Dr 0 0 0
+At STD N 00088000
+Ne 0 ""
+Po -646 1377
+.LocalClearance 10
+$EndPAD
+$EndMODULE  u-logo-0_2inch
+$EndLIBRARY
