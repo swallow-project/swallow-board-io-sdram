@@ -1,101 +1,122 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Wed 03 Apr 2013 12:36:56 CST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Thu 04 Apr 2013 19:45:53 CST
 
 BeginCmp
 TimeStamp = /515BBA39;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BBA48;
 Reference = C2;
 ValeurCmp = 10u;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BBD4E;
 Reference = C3;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BBD54;
 Reference = C4;
 ValeurCmp = 10u;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BB1B0;
 Reference = D1;
-ValeurCmp = LED;
-IdModule  = ;
+ValeurCmp = Write_LED;
+IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BB1BF;
 Reference = D2;
-ValeurCmp = LED;
-IdModule  = ;
+ValeurCmp = Read_LED;
+IdModule  = X_LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /515D6B2E;
+Reference = P1;
+ValeurCmp = I2C;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /515D790D;
+Reference = P2;
+ValeurCmp = Swallow_LinkW1;
+IdModule  = FFC5-xx-R-L-Tx;
+EndCmp
+
+BeginCmp
+TimeStamp = /515D6E5B;
+Reference = P3;
+ValeurCmp = Vdd_Swallow;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /515D6FD8;
+Reference = P4;
+ValeurCmp = Power;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BA8F1;
 Reference = R1;
 ValeurCmp = 0R5;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5160CB4E;
-Reference = Swallow_V2_I/O1;
+Reference = Swallow_V1;
 ValeurCmp = CONN_16;
-IdModule  = ;
+IdModule  = pin_array_8x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BE9AF;
 Reference = U1;
 ValeurCmp = 74HC245;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /515BE7F9;
-Reference = U2;
-ValeurCmp = 74HC245;
-IdModule  = ;
+IdModule  = SO20L;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BE9B5;
-Reference = U3;
+Reference = U2;
 ValeurCmp = 74HC245;
-IdModule  = ;
+IdModule  = SO20L;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BA6C8;
-Reference = U4;
+Reference = U3;
 ValeurCmp = INA219;
-IdModule  = ;
+IdModule  = SOT23-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /515BC849;
-Reference = U5;
-ValeurCmp = YC124;
-IdModule  = ;
+TimeStamp = /515D6280;
+Reference = U4;
+ValeurCmp = 3k3;
+IdModule  = YC124-JR;
 EndCmp
 
 BeginCmp
 TimeStamp = /5160BB3B;
-Reference = U6;
+Reference = U5;
 ValeurCmp = DRAM-8MX8X4;
-IdModule  = ;
+IdModule  = TSSOP-54;
 EndCmp
 
 EndListe
