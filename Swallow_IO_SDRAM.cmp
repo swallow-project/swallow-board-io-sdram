@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Thu 04 Apr 2013 19:45:53 CST
+Cmp-Mod V01 Created by PcbNew date = Thu 04 Apr 2013 21:07:26 CST
 
 BeginCmp
 TimeStamp = /515BBA39;
@@ -88,14 +88,14 @@ BeginCmp
 TimeStamp = /515BE9AF;
 Reference = U1;
 ValeurCmp = 74HC245;
-IdModule  = SO20L;
+IdModule  = SSOP20;
 EndCmp
 
 BeginCmp
 TimeStamp = /515BE9B5;
 Reference = U2;
 ValeurCmp = 74HC245;
-IdModule  = SO20L;
+IdModule  = SSOP20;
 EndCmp
 
 BeginCmp

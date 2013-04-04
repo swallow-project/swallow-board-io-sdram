@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 04 Apr 2013 19:45:02 CST
+EESchema Schematic File Version 2  date Thu 04 Apr 2013 22:32:37 CST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -216,14 +216,14 @@ F 1 "GND" H 2750 6880 30  0001 C CNN
 	1    2750 6950
 	1    0    0    -1  
 $EndComp
-Text Label 2800 6300 2    60   ~ 0
+Text Label 2850 6700 2    60   ~ 0
 Adr_Clk
-Text Label 2800 6500 2    60   ~ 0
+Text Label 2800 6300 2    60   ~ 0
 DQM
-Text Label 2800 6400 2    60   ~ 0
+Text Label 2800 6500 2    60   ~ 0
 CLK
-Text Notes 3800 5250 2    60   ~ 0
-Swallow V2 I/O Header Connector
+Text Notes 2900 3600 2    60   ~ 0
+Swallow V2 I/O Header Connector\nN.B. wire will be twisted when used
 Text Notes 9000 1850 2    60   ~ 0
 Byte-data 256Mbit SDRAM
 $Comp
@@ -551,11 +551,11 @@ F 1 "GND" H 8850 6430 30  0001 C CNN
 $EndComp
 Text Label 1150 7000 0    60   ~ 0
 SDA
-Text Label 2600 6600 0    60   ~ 0
-RAS_n
-Text Label 2600 6700 0    60   ~ 0
-CAS_n
 Text Label 2600 6800 0    60   ~ 0
+RAS_n
+Text Label 2600 6600 0    60   ~ 0
+CAS_n
+Text Label 2600 6400 0    60   ~ 0
 WE_n
 Text Label 1500 6200 0    60   ~ 0
 CS_n
@@ -964,10 +964,10 @@ F 1 "GND" H 1350 7230 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P2
+L CONN_2 P3
 U 1 1 515D6E5B
 P 10600 6000
-F 0 "P2" V 10550 6000 40  0000 C CNN
+F 0 "P3" V 10550 6000 40  0000 C CNN
 F 1 "Vdd_Swallow" V 10650 6000 40  0000 C CNN
 	1    10600 6000
 	1    0    0    -1  
@@ -988,10 +988,10 @@ Wire Wire Line
 Text Label 2850 7200 2    60   ~ 0
 Vdd_Swallow
 $Comp
-L CONN_2 P3
+L CONN_2 P4
 U 1 1 515D6FD8
 P 10600 6550
-F 0 "P3" V 10550 6550 40  0000 C CNN
+F 0 "P4" V 10550 6550 40  0000 C CNN
 F 1 "Power" V 10650 6550 40  0000 C CNN
 	1    10600 6550
 	1    0    0    -1  
@@ -1029,74 +1029,70 @@ Wire Notes Line
 Text Notes 10500 5650 2    60   ~ 0
 Power supply\nselection
 $Comp
-L CONN_30 P?
+L CONN_30 P2
 U 1 1 515D790D
-P 1900 3900
-F 0 "P?" V 1851 3900 60  0000 C CNN
-F 1 "Swallow_LinkW1" V 1950 3900 60  0000 C CNN
-	1    1900 3900
-	1    0    0    -1  
+P 800 4000
+F 0 "P2" V 751 4000 60  0000 C CNN
+F 1 "Swallow_LinkW1" V 850 4000 60  0000 C CNN
+	1    800  4000
+	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR036
 U 1 1 515D7A7A
-P 1550 5450
-F 0 "#PWR?" H 1550 5450 30  0001 C CNN
-F 1 "GND" H 1550 5380 30  0001 C CNN
-	1    1550 5450
-	1    0    0    -1  
+P 1250 5450
+F 0 "#PWR036" H 1250 5450 30  0001 C CNN
+F 1 "GND" H 1250 5380 30  0001 C CNN
+	1    1250 5450
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1550 5450 1550 5350
+	1250 5450 1150 5450
 Wire Wire Line
-	1550 2450 1150 2450
+	1550 2850 1150 2850
 Wire Wire Line
-	1150 2450 1150 2550
+	1150 2550 1250 2550
 $Comp
-L GND #PWR?
+L GND #PWR037
 U 1 1 515D7EB5
-P 1150 2550
-F 0 "#PWR?" H 1150 2550 30  0001 C CNN
-F 1 "GND" H 1150 2480 30  0001 C CNN
-	1    1150 2550
-	1    0    0    -1  
+P 1250 2550
+F 0 "#PWR037" H 1250 2550 30  0001 C CNN
+F 1 "GND" H 1250 2480 30  0001 C CNN
+	1    1250 2550
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1550 4950 1150 4950
-Text Label 1450 4950 2    60   ~ 0
+	1550 2950 1150 2950
+Text Label 1450 2950 2    60   ~ 0
 SDA
 Wire Wire Line
-	1550 3850 1150 3850
-Text Label 1450 3850 2    60   ~ 0
+	1550 4050 1150 4050
+Text Label 1450 4050 2    60   ~ 0
 SCK
 $Comp
-L GND #PWR?
+L GND #PWR038
 U 1 1 515D8499
-P 1200 3650
-F 0 "#PWR?" H 1200 3650 30  0001 C CNN
-F 1 "GND" H 1200 3580 30  0001 C CNN
-	1    1200 3650
+P 1700 4200
+F 0 "#PWR038" H 1700 4200 30  0001 C CNN
+F 1 "GND" H 1700 4130 30  0001 C CNN
+	1    1700 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR039
 U 1 1 515D84A8
-P 1400 5150
-F 0 "#PWR?" H 1400 5150 30  0001 C CNN
-F 1 "GND" H 1400 5080 30  0001 C CNN
-	1    1400 5150
+P 1800 2950
+F 0 "#PWR039" H 1800 2950 30  0001 C CNN
+F 1 "GND" H 1800 2880 30  0001 C CNN
+	1    1800 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 5150 1400 5050
+	1800 2950 1800 2850
 Wire Wire Line
-	1400 5050 1550 5050
+	1700 4150 1700 4200
 Wire Wire Line
-	1550 3750 1400 3750
+	1800 2850 1550 2850
 Wire Wire Line
-	1400 3750 1400 3600
-Wire Wire Line
-	1400 3600 1200 3600
-Wire Wire Line
-	1200 3600 1200 3650
+	1700 4150 1150 4150
 $EndSCHEMATC
