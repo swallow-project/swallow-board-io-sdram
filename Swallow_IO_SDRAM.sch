@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 04 Apr 2013 22:32:37 CST
+EESchema Schematic File Version 2  date Fri 05 Apr 2013 17:32:20 CST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Swallow_IO_SDRAM.sch"
-Date "4 apr 2013"
+Date "5 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -275,7 +275,7 @@ Text Label 6300 5650 0    60   ~ 0
 SDA
 Text Label 6300 5750 0    60   ~ 0
 SCK
-Text Label 1150 7100 0    60   ~ 0
+Text Label 1150 7000 0    60   ~ 0
 SCK
 $Comp
 L +3.3V #PWR07
@@ -549,7 +549,7 @@ F 1 "GND" H 8850 6430 30  0001 C CNN
 	1    8850 6500
 	1    0    0    -1  
 $EndComp
-Text Label 1150 7000 0    60   ~ 0
+Text Label 1150 7100 0    60   ~ 0
 SDA
 Text Label 2600 6800 0    60   ~ 0
 RAS_n
@@ -1049,7 +1049,7 @@ $EndComp
 Wire Wire Line
 	1250 5450 1150 5450
 Wire Wire Line
-	1550 2850 1150 2850
+	1150 2850 1800 2850
 Wire Wire Line
 	1150 2550 1250 2550
 $Comp
@@ -1063,11 +1063,11 @@ F 1 "GND" H 1250 2480 30  0001 C CNN
 $EndComp
 Wire Wire Line
 	1550 2950 1150 2950
-Text Label 1450 2950 2    60   ~ 0
+Text Label 1450 4050 2    60   ~ 0
 SDA
 Wire Wire Line
 	1550 4050 1150 4050
-Text Label 1450 4050 2    60   ~ 0
+Text Label 1450 2950 2    60   ~ 0
 SCK
 $Comp
 L GND #PWR038
@@ -1088,11 +1088,9 @@ F 1 "GND" H 1800 2880 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 2950 1800 2850
+	1800 2850 1800 2950
 Wire Wire Line
 	1700 4150 1700 4200
-Wire Wire Line
-	1800 2850 1550 2850
 Wire Wire Line
 	1700 4150 1150 4150
 $EndSCHEMATC

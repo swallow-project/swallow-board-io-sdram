@@ -1,6 +1,6 @@
-update=Wed 03 Apr 2013 17:22:43 CST
+update=Fri 05 Apr 2013 17:49:59 CST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -43,13 +43,18 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=xmos_custom_library
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.6
-PadSizeH=1
-PadSizeV=1
+PadDrill=4.0005
+PadSizeH=8.001
+PadSizeV=8.001
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3
@@ -62,6 +67,7 @@ DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [pcbnew/libraries]
+LibDir=kicad/footprints
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -75,9 +81,3 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=xmos_custom_footprints
 LibName13=X_LED-0603
-LibDir=kicad/footprints
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
