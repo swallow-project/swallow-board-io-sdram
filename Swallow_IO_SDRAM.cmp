@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 05 Apr 2013 14:12:56 CST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Sat 06 Apr 2013 16:39:37 CST
 
 BeginCmp
 TimeStamp = /515BBA39;
@@ -71,6 +71,13 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
+TimeStamp = /5160CB4E;
+Reference = P5;
+ValeurCmp = Swallow_V2_Core2_I/O;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
 TimeStamp = /515BA8F1;
 Reference = R1;
 ValeurCmp = 0R5;
@@ -78,23 +85,16 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5160CB4E;
-Reference = Swallow_V1;
-ValeurCmp = CONN_16;
-IdModule  = pin_array_8x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /515BE9AF;
+TimeStamp = /515FD7FC;
 Reference = U1;
-ValeurCmp = 74HC245;
+ValeurCmp = 74LS574;
 IdModule  = SO20L;
 EndCmp
 
 BeginCmp
-TimeStamp = /515BE9B5;
+TimeStamp = /515FD80B;
 Reference = U2;
-ValeurCmp = 74HC245;
+ValeurCmp = 74LS574;
 IdModule  = SO20L;
 EndCmp
 

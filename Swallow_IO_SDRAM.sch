@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 05 Apr 2013 17:32:20 CST
+EESchema Schematic File Version 2  date Sat 06 Apr 2013 16:40:42 CST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Swallow_IO_SDRAM.sch"
-Date "5 apr 2013"
+Date "6 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -183,11 +183,11 @@ P8C6
 Text Label 9150 2500 0    60   ~ 0
 P8C7
 $Comp
-L CONN_16 Swallow_V1
+L CONN_16 P5
 U 1 1 5160CB4E
 P 3250 6300
-F 0 "Swallow_V1" V 3210 6300 60  0000 C CNN
-F 1 "CONN_16" V 3330 6300 60  0000 C CNN
+F 0 "P5" V 3210 6300 60  0000 C CNN
+F 1 "Swallow_V2_Core2_I/O" V 3330 6300 60  0000 C CNN
 	1    3250 6300
 	1    0    0    -1  
 $EndComp
@@ -520,24 +520,6 @@ P 7650 3550
 F 0 "#PWR027" H 7650 3550 30  0001 C CNN
 F 1 "GND" H 7650 3480 30  0001 C CNN
 	1    7650 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74HC245 U1
-U 1 1 515BE9AF
-P 3150 2050
-F 0 "U1" H 3250 2625 60  0000 L BNN
-F 1 "74HC245" H 3200 1475 60  0000 L TNN
-	1    3150 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74HC245 U2
-U 1 1 515BE9B5
-P 5200 2050
-F 0 "U2" H 5300 2625 60  0000 L BNN
-F 1 "74HC245" H 5250 1475 60  0000 L TNN
-	1    5200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1093,4 +1075,22 @@ Wire Wire Line
 	1700 4150 1700 4200
 Wire Wire Line
 	1700 4150 1150 4150
+$Comp
+L 74LS574 U1
+U 1 1 515FD7FC
+P 3150 2050
+F 0 "U1" H 3150 2050 60  0000 C CNN
+F 1 "74LS574" H 3200 1700 60  0000 C CNN
+	1    3150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS574 U2
+U 1 1 515FD80B
+P 5200 2050
+F 0 "U2" H 5200 2050 60  0000 C CNN
+F 1 "74LS574" H 5250 1700 60  0000 C CNN
+	1    5200 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
