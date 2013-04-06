@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 06 Apr 2013 16:40:42 CST
+EESchema Schematic File Version 2  date Sat 06 Apr 2013 18:34:57 CST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -223,7 +223,7 @@ DQM
 Text Label 2800 6500 2    60   ~ 0
 CLK
 Text Notes 2900 3600 2    60   ~ 0
-Swallow V2 I/O Header Connector\nN.B. wire will be twisted when used
+Swallow V2 W1 FFC Header Connector\nOn bottom side so wire un-twisted.
 Text Notes 9000 1850 2    60   ~ 0
 Byte-data 256Mbit SDRAM
 $Comp
