@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/harry/work/kicad/Swallow_IO_SDRAM/Swallow_IO_SDRAM.sch)
-    (date "Sat 27 Apr 2013 19:00:48 BST")
+    (date "Sat 27 Apr 2013 19:10:45 BST")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref U5)
@@ -133,7 +133,12 @@
       (value 74LVC1G02)
       (libsource (lib xmos_custom_library) (part 74LVC1G02))
       (sheetpath (names /) (tstamps /))
-      (tstamp 517C1118)))
+      (tstamp 517C1118))
+    (comp (ref H1)
+      (value MOUNTING_HOLE)
+      (libsource (lib xmos_custom_library) (part MOUNTING_HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 517C314E)))
   (libparts
     (libpart (lib device) (part C)
       (description "Condensateur non polarise")
@@ -444,6 +449,15 @@
         (pin (num 12) (name RS4+) (type input))
         (pin (num 13) (name RS4-) (type output))
         (pin (num 14) (name OUT4) (type output))))
+    (libpart (lib xmos_custom_library) (part MOUNTING_HOLE)
+      (description "A 3mm mounting hole with a 5mm annulus")
+      (footprints
+        (fp Mounting_Hole*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MOUNTING_HOLE)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~)))
     (libpart (lib xmos_custom_library) (part YC124)
       (description "33R RESISTOR ARRAY")
       (docs C:/Users/Jake/Downloads/xmos/YC124-JR-33R.pdf)

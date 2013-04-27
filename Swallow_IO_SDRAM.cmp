@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 27 Apr 2013 19:07:19 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 27 Apr 2013 19:10:59 BST
 
 BeginCmp
 TimeStamp = /515BBA39;
@@ -54,6 +54,13 @@ TimeStamp = /515BB1BF;
 Reference = D2;
 ValeurCmp = Read_LED;
 IdModule  = X_LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517C314E;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = hole_4mm;
 EndCmp
 
 BeginCmp
