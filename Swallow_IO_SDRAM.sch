@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 27 Apr 2013 21:49:43 BST
+EESchema Schematic File Version 2  date Sat 27 Apr 2013 21:50:31 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -703,65 +703,6 @@ F 3 "" H 10250 6350 60  0001 C CNN
 $EndComp
 Text Notes 10500 5650 2    60   ~ 0
 Power supply\nselection
-$Comp
-L CONN_30 P2
-U 1 1 515D790D
-P 850 2250
-F 0 "P2" V 801 2250 60  0000 C CNN
-F 1 "Swallow_LinkW1" V 900 2250 60  0000 C CNN
-F 2 "FFC5-xx-R-L-Tx" H 850 2250 60  0001 C CNN
-F 3 "" H 850 2250 60  0001 C CNN
-	1    850  2250
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR4
-U 1 1 515D7A7A
-P 1300 3700
-F 0 "#PWR4" H 1300 3700 30  0001 C CNN
-F 1 "GND" H 1300 3630 30  0001 C CNN
-F 2 "" H 1300 3700 60  0001 C CNN
-F 3 "" H 1300 3700 60  0001 C CNN
-	1    1300 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR3
-U 1 1 515D7EB5
-P 1300 800
-F 0 "#PWR3" H 1300 800 30  0001 C CNN
-F 1 "GND" H 1300 730 30  0001 C CNN
-F 2 "" H 1300 800 60  0001 C CNN
-F 3 "" H 1300 800 60  0001 C CNN
-	1    1300 800 
-	0    -1   -1   0   
-$EndComp
-Text Label 1500 2300 2    60   ~ 0
-SDA
-Text Label 1500 1200 2    60   ~ 0
-SCK
-$Comp
-L GND #PWR5
-U 1 1 515D8499
-P 1750 2450
-F 0 "#PWR5" H 1750 2450 30  0001 C CNN
-F 1 "GND" H 1750 2380 30  0001 C CNN
-F 2 "" H 1750 2450 60  0001 C CNN
-F 3 "" H 1750 2450 60  0001 C CNN
-	1    1750 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR6
-U 1 1 515D84A8
-P 1800 2950
-F 0 "#PWR6" H 1800 2950 30  0001 C CNN
-F 1 "GND" H 1800 2880 30  0001 C CNN
-F 2 "" H 1800 2950 60  0001 C CNN
-F 3 "" H 1800 2950 60  0001 C CNN
-	1    1800 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74LS574 U1
 U 1 1 515FD7FC
@@ -1540,20 +1481,6 @@ Wire Notes Line
 	11000 7050 11000 5500
 Wire Notes Line
 	11000 5500 9550 5500
-Wire Wire Line
-	1300 3700 1200 3700
-Wire Wire Line
-	1200 1100 1850 1100
-Wire Wire Line
-	1200 800  1300 800 
-Wire Wire Line
-	1600 1200 1200 1200
-Wire Wire Line
-	1600 2300 1200 2300
-Wire Wire Line
-	1800 2850 1800 2950
-Wire Wire Line
-	1750 2400 1200 2400
 Wire Wire Line
 	2350 6300 2700 6300
 Wire Wire Line

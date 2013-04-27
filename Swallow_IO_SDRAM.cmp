@@ -1,4 +1,25 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 27 Apr 2013 19:10:59 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 27 Apr 2013 21:53:18 BST
+
+BeginCmp
+TimeStamp = /5160BB3B;
+Reference = U5;
+ValeurCmp = DRAM-8MX8X4;
+IdModule  = TSSOP-54;
+EndCmp
+
+BeginCmp
+TimeStamp = /5160CB4E;
+Reference = P5;
+ValeurCmp = Swallow_V2_Core2_I/O;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /515BA8F1;
+Reference = R1;
+ValeurCmp = 0R5;
+IdModule  = SM0805;
+EndCmp
 
 BeginCmp
 TimeStamp = /515BBA39;
@@ -29,17 +50,10 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /517AEC4C;
-Reference = C5;
-ValeurCmp = 470n;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /517ACC30;
-Reference = C6;
-ValeurCmp = 470n;
-IdModule  = SM0805;
+TimeStamp = /515BB1BF;
+Reference = D2;
+ValeurCmp = Read_LED;
+IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
@@ -50,17 +64,10 @@ IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /515BB1BF;
-Reference = D2;
-ValeurCmp = Read_LED;
-IdModule  = X_LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /517C314E;
-Reference = H1;
-ValeurCmp = MOUNTING_HOLE;
-IdModule  = hole_4mm;
+TimeStamp = /515D6280;
+Reference = U4;
+ValeurCmp = 3k3;
+IdModule  = YC124-JR;
 EndCmp
 
 BeginCmp
@@ -71,52 +78,17 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /515D790D;
-Reference = P2;
-ValeurCmp = Swallow_LinkW1;
-IdModule  = FFC5-xx-R-L-Tx;
-EndCmp
-
-BeginCmp
 TimeStamp = /515D6E5B;
 Reference = P3;
 ValeurCmp = Vdd_Swallow;
-IdModule  = SIL-2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /515D6FD8;
 Reference = P4;
 ValeurCmp = Power;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5160CB4E;
-Reference = P5;
-ValeurCmp = Swallow_V2_Core2_I/O;
-IdModule  = pin_array_8x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /517A9299;
-Reference = P6;
-ValeurCmp = VIn;
-IdModule  = pin_array_6x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /517AAE3F;
-Reference = P7;
-ValeurCmp = A Power;
 IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /515BA8F1;
-Reference = R1;
-ValeurCmp = 0R5;
-IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -141,20 +113,6 @@ IdModule  = TSSOP14;
 EndCmp
 
 BeginCmp
-TimeStamp = /515D6280;
-Reference = U4;
-ValeurCmp = 3k3;
-IdModule  = YC124-JR;
-EndCmp
-
-BeginCmp
-TimeStamp = /5160BB3B;
-Reference = U5;
-ValeurCmp = DRAM-8MX8X4;
-IdModule  = TSSOP-54;
-EndCmp
-
-BeginCmp
 TimeStamp = /517A9110;
 Reference = U6;
 ValeurCmp = MAX4378;
@@ -169,10 +127,31 @@ IdModule  = TQFP32;
 EndCmp
 
 BeginCmp
-TimeStamp = /517C1118;
-Reference = U8;
-ValeurCmp = 74LVC1G02;
-IdModule  = SOT353;
+TimeStamp = /517A9299;
+Reference = P6;
+ValeurCmp = VIn;
+IdModule  = pin_array_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /517AAE3F;
+Reference = P7;
+ValeurCmp = A Power;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517ACC30;
+Reference = C6;
+ValeurCmp = 470n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /517AEC4C;
+Reference = C5;
+ValeurCmp = 470n;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -187,6 +166,20 @@ TimeStamp = /517B0FA6;
 Reference = U10;
 ValeurCmp = 74LVC1G02;
 IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /517C1118;
+Reference = U8;
+ValeurCmp = 74LVC1G02;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /517C314E;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = hole_4mm;
 EndCmp
 
 EndListe
