@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Sat 06 Apr 2013 16:39:37 CST
+Cmp-Mod V01 Created by PcbNew date = Sat 27 Apr 2013 19:05:41 BST
 
 BeginCmp
 TimeStamp = /515BBA39;
@@ -26,6 +26,20 @@ TimeStamp = /515BBD54;
 Reference = C4;
 ValeurCmp = 10u;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /517AEC4C;
+Reference = C5;
+ValeurCmp = 470n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /517ACC30;
+Reference = C6;
+ValeurCmp = 470n;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -78,6 +92,20 @@ IdModule  = pin_array_8x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /517A9299;
+Reference = P6;
+ValeurCmp = VIn;
+IdModule  = pin_array_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /517AAE3F;
+Reference = P7;
+ValeurCmp = A Power;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /515BA8F1;
 Reference = R1;
 ValeurCmp = 0R5;
@@ -99,9 +127,9 @@ IdModule  = SO20L;
 EndCmp
 
 BeginCmp
-TimeStamp = /515BA6C8;
+TimeStamp = /517A9101;
 Reference = U3;
-ValeurCmp = INA219;
+ValeurCmp = MAX4378;
 IdModule  = SOT23-8;
 EndCmp
 
@@ -117,6 +145,41 @@ TimeStamp = /5160BB3B;
 Reference = U5;
 ValeurCmp = DRAM-8MX8X4;
 IdModule  = TSSOP-54;
+EndCmp
+
+BeginCmp
+TimeStamp = /517A9110;
+Reference = U6;
+ValeurCmp = MAX4378;
+IdModule  = TSSOP14;
+EndCmp
+
+BeginCmp
+TimeStamp = /517A911F;
+Reference = U7;
+ValeurCmp = AD7266;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /517C1118;
+Reference = U8;
+ValeurCmp = 74LVC1G02;
+IdModule  = SOT353;
+EndCmp
+
+BeginCmp
+TimeStamp = /517B0309;
+Reference = U9;
+ValeurCmp = 1k;
+IdModule  = YC124-JR;
+EndCmp
+
+BeginCmp
+TimeStamp = /517B0FA6;
+Reference = U10;
+ValeurCmp = 74LVC1G02;
+IdModule  = SOT353;
 EndCmp
 
 EndListe
