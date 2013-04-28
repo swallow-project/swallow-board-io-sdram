@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/harry/work/kicad/Swallow_IO_SDRAM/Swallow_IO_SDRAM.sch)
-    (date "Sun 28 Apr 2013 17:01:23 BST")
+    (date "Sun 28 Apr 2013 17:45:14 BST")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref U10)
@@ -172,7 +172,13 @@
       (value Cores_T)
       (libsource (lib conn) (part CONN_2))
       (sheetpath (names /) (tstamps /))
-      (tstamp 517D5D46)))
+      (tstamp 517D5D46))
+    (comp (ref H2)
+      (value MOUNTING_HOLE)
+      (footprint hole_4mm)
+      (libsource (lib xmos_custom_library) (part MOUNTING_HOLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 517D63FA)))
   (libparts
     (libpart (lib device) (part C)
       (description "Condensateur non polarise")

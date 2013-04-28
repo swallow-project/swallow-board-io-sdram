@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Apr 2013 17:01:19 BST
+EESchema Schematic File Version 2  date Sun 28 Apr 2013 17:45:10 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1775,4 +1775,15 @@ F 3 "~" H 1450 6200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1100 6300 750  6300
+$Comp
+L MOUNTING_HOLE H2
+U 1 1 517D63FA
+P 8400 6900
+F 0 "H2" H 8400 6750 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 8400 7050 30  0000 C CNN
+F 2 "hole_4mm" H 8400 6900 60  0000 C CNN
+F 3 "~" H 8400 6900 60  0000 C CNN
+	1    8400 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

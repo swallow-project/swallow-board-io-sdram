@@ -8,7 +8,7 @@
     (drawings 47)
     (tracks 518)
     (zones 0)
-    (modules 29)
+    (modules 30)
     (nets 83)
   )
 
@@ -57,8 +57,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 1.016)
+    (pad_size 7 7)
+    (pad_drill 7)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 27.125 59.725)
     (visible_elements FFFFFF7F)
@@ -1838,6 +1838,20 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Hole-7mm   locked (layer F.Cu) (tedit 517D2421) (tstamp 517D541D)
+    (at 36.085 166.495)
+    (path /517D63FA)
+    (fp_text reference H2 (at 0.15 -1.8) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MOUNTING_HOLE (at 0.2 2.1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 7 7) (drill 7)
+      (layers *.Cu *.Mask F.SilkS)
     )
   )
 
