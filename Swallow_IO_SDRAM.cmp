@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 27 Apr 2013 22:00:40 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 28 Apr 2013 17:01:10 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /517C314E;
 Reference = H1;
 ValeurCmp = MOUNTING_HOLE;
-IdModule  = Mounting_Hole-3mm;
+IdModule  = Hole-7mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /517A9299;
+TimeStamp = /517D5D46;
 Reference = P1;
-ValeurCmp = VIn;
-IdModule  = pin_array_6x2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -96,6 +96,34 @@ TimeStamp = /5160CB4E;
 Reference = P5;
 ValeurCmp = Swallow_V2_Core2_I/O;
 IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /517D44DC;
+Reference = P6;
+ValeurCmp = Cores_MT;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517D44EB;
+Reference = P7;
+ValeurCmp = Cores_MB;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517D44FA;
+Reference = P8;
+ValeurCmp = Cores_B;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517D4509;
+Reference = P9;
+ValeurCmp = VIO;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
