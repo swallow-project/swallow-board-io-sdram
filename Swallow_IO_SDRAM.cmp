@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 28 Apr 2013 17:45:27 BST
+Cmp-Mod V01 Created by PcbNew date = Mon 29 Apr 2013 10:22:06 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -134,9 +134,44 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /517E3C6F;
+Reference = P10;
+ValeurCmp = SDRAM_Disable;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517E4E0D;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517E4DE0;
+Reference = P12;
+ValeurCmp = Power2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517E46A5;
+Reference = P13;
+ValeurCmp = VAA_Link;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /515BA8F1;
 Reference = R1;
 ValeurCmp = 0R5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /517E4862;
+Reference = R2;
+ValeurCmp = 0R;
 IdModule  = SM0805;
 EndCmp
 
@@ -169,9 +204,9 @@ IdModule  = TQFP32;
 EndCmp
 
 BeginCmp
-TimeStamp = /517C1118;
+TimeStamp = /517E3880;
 Reference = U5;
-ValeurCmp = 74LVC1G02;
+ValeurCmp = 74LVC1G00;
 IdModule  = SOT353;
 EndCmp
 
