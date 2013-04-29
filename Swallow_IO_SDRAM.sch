@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Apr 2013 18:21:42 BST
+EESchema Schematic File Version 2  date Mon 29 Apr 2013 20:03:45 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -458,12 +458,12 @@ $EndComp
 $Comp
 L +3.3V #PWR018
 U 1 1 515BDA57
-P 2850 1400
-F 0 "#PWR018" H 2850 1360 30  0001 C CNN
-F 1 "+3.3V" H 2850 1510 30  0000 C CNN
-F 2 "" H 2850 1400 60  0001 C CNN
-F 3 "" H 2850 1400 60  0001 C CNN
-	1    2850 1400
+P 3150 1400
+F 0 "#PWR018" H 3150 1360 30  0001 C CNN
+F 1 "+3.3V" H 3150 1510 30  0000 C CNN
+F 2 "" H 3150 1400 60  0001 C CNN
+F 3 "" H 3150 1400 60  0001 C CNN
+	1    3150 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2022,4 +2022,15 @@ Wire Wire Line
 	5450 950  5300 950 
 Text Notes 5400 550  0    60   ~ 0
 Total Vf of the\ntwo LEDS is 3.9V
+$Comp
+L +3.3V #PWR?
+U 1 1 517EC89F
+P 5200 1400
+F 0 "#PWR?" H 5200 1360 30  0001 C CNN
+F 1 "+3.3V" H 5200 1510 30  0000 C CNN
+F 2 "" H 5200 1400 60  0000 C CNN
+F 3 "" H 5200 1400 60  0000 C CNN
+	1    5200 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
