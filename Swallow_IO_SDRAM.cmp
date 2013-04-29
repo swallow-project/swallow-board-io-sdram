@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 29 Apr 2013 18:15:32 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 29 Apr 2013 22:17:29 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -159,6 +159,13 @@ TimeStamp = /517E46A5;
 Reference = P13;
 ValeurCmp = VAA_Link;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /517EE5D6;
+Reference = P14;
+ValeurCmp = Swallow_RST_N_G;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp

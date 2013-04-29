@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Apr 2013 20:03:45 BST
+EESchema Schematic File Version 2  date Mon 29 Apr 2013 22:17:32 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2023,14 +2023,40 @@ Wire Wire Line
 Text Notes 5400 550  0    60   ~ 0
 Total Vf of the\ntwo LEDS is 3.9V
 $Comp
-L +3.3V #PWR?
+L +3.3V #PWR065
 U 1 1 517EC89F
 P 5200 1400
-F 0 "#PWR?" H 5200 1360 30  0001 C CNN
+F 0 "#PWR065" H 5200 1360 30  0001 C CNN
 F 1 "+3.3V" H 5200 1510 30  0000 C CNN
 F 2 "" H 5200 1400 60  0000 C CNN
 F 3 "" H 5200 1400 60  0000 C CNN
 	1    5200 1400
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_3 P14
+U 1 1 517EE5D6
+P 6750 2900
+F 0 "P14" V 6700 2900 50  0000 C CNN
+F 1 "Swallow_RST_N_G" V 6800 2900 40  0000 C CNN
+F 2 "~" H 6750 2900 60  0000 C CNN
+F 3 "~" H 6750 2900 60  0000 C CNN
+	1    6750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR066
+U 1 1 517EE5F1
+P 6400 3100
+F 0 "#PWR066" H 6400 3100 30  0001 C CNN
+F 1 "GND" H 6400 3030 30  0001 C CNN
+F 2 "" H 6400 3100 60  0000 C CNN
+F 3 "" H 6400 3100 60  0000 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3100 6400 3000
+Wire Wire Line
+	6400 2800 6400 2900
 $EndSCHEMATC
