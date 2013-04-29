@@ -2,11 +2,11 @@
 
   (general
     (links 171)
-    (no_connects 88)
+    (no_connects 89)
     (area 25.054999 55.274999 55.225001 195.425001)
     (thickness 1.6)
     (drawings 31)
-    (tracks 457)
+    (tracks 454)
     (zones 0)
     (modules 35)
     (nets 77)
@@ -213,7 +213,6 @@
     (add_net /VDRAM_Div)
     (add_net /VIO-)
     (add_net /VIO_Div)
-    (add_net /Vdd_DRAM)
     (add_net /WE_n)
     (add_net N-0000011)
     (add_net N-0000012)
@@ -232,8 +231,6 @@
     (add_net N-0000053)
     (add_net N-0000067)
     (add_net N-000008)
-    (add_net VAA)
-    (add_net VCC)
   )
 
   (net_class Analogue_Signal ""
@@ -268,9 +265,12 @@
     (uvia_dia 0.8)
     (uvia_drill 0.3)
     (add_net +3.3V)
+    (add_net /Vdd_DRAM)
     (add_net /Vdd_Swallow)
     (add_net AGND)
     (add_net GND)
+    (add_net VAA)
+    (add_net VCC)
   )
 
   (module LED_BiColour-1206 (layer F.Cu) (tedit 517E6EFD) (tstamp 517EACF9)
@@ -2382,9 +2382,6 @@
   (segment (start 40.4591 100.67) (end 42.155 100.67) (width 0.5) (layer F.Cu) (net 53))
   (segment (start 42.401 100.424) (end 44.1 100.424) (width 0.5) (layer F.Cu) (net 53) (tstamp 517D92F8))
   (segment (start 42.155 100.67) (end 42.401 100.424) (width 0.5) (layer F.Cu) (net 53) (tstamp 517D92F7))
-  (segment (start 29.675 77.3025) (end 29.675 81.925) (width 0.5) (layer F.Cu) (net 53))
-  (segment (start 38.0187 90.2687) (end 40.4591 90.2687) (width 0.5) (layer F.Cu) (net 53) (tstamp 517D92F2))
-  (segment (start 29.675 81.925) (end 38.0187 90.2687) (width 0.5) (layer F.Cu) (net 53) (tstamp 517D92EE))
   (via (at 49.73 79.07) (size 0.8) (layers F.Cu B.Cu) (net 53))
   (segment (start 49.61 79.07) (end 49.73 79.07) (width 0.2) (layer F.Cu) (net 53))
   (segment (start 49.0919 78.5519) (end 49.61 79.07) (width 0.2) (layer F.Cu) (net 53))
