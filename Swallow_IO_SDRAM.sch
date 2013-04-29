@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Apr 2013 22:17:32 BST
+EESchema Schematic File Version 2  date Mon 29 Apr 2013 22:49:26 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -705,17 +705,6 @@ F 1 "A Power" V 3200 6950 40  0000 C CNN
 F 2 "PIN_ARRAY_2X1" H 3150 6950 60  0001 C CNN
 F 3 "~" H 3150 6950 60  0000 C CNN
 	1    3150 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR028
-U 1 1 517AAFE7
-P 2800 7200
-F 0 "#PWR028" H 2800 7200 30  0001 C CNN
-F 1 "GND" H 2800 7130 30  0001 C CNN
-F 2 "" H 2800 7200 60  0000 C CNN
-F 3 "" H 2800 7200 60  0000 C CNN
-	1    2800 7200
 	1    0    0    -1  
 $EndComp
 Text Label 3450 5400 2    60   ~ 0
@@ -1948,9 +1937,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 7400 6100 7300
 Wire Wire Line
-	5750 7200 5950 7200
-Wire Wire Line
-	5950 7200 5950 7600
+	5950 7100 5950 7600
 Wire Wire Line
 	5950 7600 6650 7600
 Wire Wire Line
@@ -1959,8 +1946,6 @@ Wire Wire Line
 	6750 7150 6750 7100
 Wire Wire Line
 	6750 7100 6650 7100
-Wire Wire Line
-	5750 7100 6100 7100
 $Comp
 L DUAL_LED-RG-OLS-136UR_SYG D1
 U 1 1 517EAA4C
@@ -2059,4 +2044,21 @@ Wire Wire Line
 	6400 3100 6400 3000
 Wire Wire Line
 	6400 2800 6400 2900
+$Comp
+L AGND #PWR?
+U 1 1 517EE921
+P 2800 7200
+F 0 "#PWR?" H 2800 7200 40  0001 C CNN
+F 1 "AGND" H 2800 7130 50  0000 C CNN
+F 2 "" H 2800 7200 60  0000 C CNN
+F 3 "" H 2800 7200 60  0000 C CNN
+	1    2800 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7100 5750 7100
+Wire Wire Line
+	5750 7200 6100 7200
+Wire Wire Line
+	6100 7200 6100 7100
 $EndSCHEMATC
