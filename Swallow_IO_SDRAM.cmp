@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 29 Apr 2013 22:17:29 BST
+Cmp-Mod V01 Created by PcbNew date = Tue 30 Apr 2013 11:27:09 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /517B0309;
 Reference = U8;
 ValeurCmp = 1k;
-IdModule  = YC124-JR;
+IdModule  = R_CAY-16;
 EndCmp
 
 BeginCmp
