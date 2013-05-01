@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 01 May 2013 21:48:14 BST
+Cmp-Mod V01 Created by PcbNew date = Wed 01 May 2013 23:36:36 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /517C314E;
 Reference = H1;
 ValeurCmp = MOUNTING_HOLE;
-IdModule  = Hole-7mm;
+IdModule  = Mounting_Hole-3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /517D63FA;
 Reference = H2;
 ValeurCmp = MOUNTING_HOLE;
-IdModule  = Hole-7mm;
+IdModule  = Mounting_Hole-3mm;
 EndCmp
 
 BeginCmp
