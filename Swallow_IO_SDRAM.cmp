@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Tue 30 Apr 2013 11:27:09 BST
+Cmp-Mod V01 Created by PcbNew date = Wed 01 May 2013 11:05:09 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = /517D44EB;
 Reference = P7;
 ValeurCmp = Cores_MB;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -166,6 +166,13 @@ TimeStamp = /517EE5D6;
 Reference = P14;
 ValeurCmp = Swallow_RST_N_G;
 IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5180E93B;
+Reference = P15;
+ValeurCmp = +5V_In;
+IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
