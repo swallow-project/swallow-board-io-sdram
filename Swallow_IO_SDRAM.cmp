@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 01 May 2013 11:05:09 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 01 May 2013 20:03:02 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -113,7 +113,7 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /517D44EB;
+TimeStamp = /5180ED47;
 Reference = P7;
 ValeurCmp = Cores_MB;
 IdModule  = PIN_ARRAY_2X1;
@@ -192,14 +192,14 @@ EndCmp
 BeginCmp
 TimeStamp = /517A9101;
 Reference = U1;
-ValeurCmp = MAX4378;
+ValeurCmp = MAX4378T;
 IdModule  = TSSOP14;
 EndCmp
 
 BeginCmp
 TimeStamp = /517A9110;
 Reference = U2;
-ValeurCmp = MAX4378;
+ValeurCmp = MAX4378T;
 IdModule  = TSSOP14;
 EndCmp
 
@@ -257,6 +257,13 @@ TimeStamp = /5160BB3B;
 Reference = U10;
 ValeurCmp = DRAM-8MX8X4;
 IdModule  = TSSOP-54;
+EndCmp
+
+BeginCmp
+TimeStamp = /51816B16;
+Reference = U11;
+ValeurCmp = 1k;
+IdModule  = R_CAY-16;
 EndCmp
 
 EndListe
