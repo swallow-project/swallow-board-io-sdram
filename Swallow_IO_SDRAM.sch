@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 01 May 2013 21:28:08 BST
+EESchema Schematic File Version 2  date Wed 01 May 2013 21:47:56 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2149,7 +2149,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4650 6900 4900
 Wire Wire Line
-	6500 5500 6500 6100
+	6500 5500 6500 6250
 Wire Wire Line
 	6500 6100 6800 6100
 Wire Wire Line
@@ -2173,17 +2173,6 @@ F 3 "" H 6700 4900 60  0000 C CNN
 	1    6700 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L AGND #PWR069
-U 1 1 518180E8
-P 7000 5950
-F 0 "#PWR069" H 7000 5950 40  0001 C CNN
-F 1 "AGND" H 7000 5880 50  0000 C CNN
-F 2 "" H 7000 5950 60  0000 C CNN
-F 3 "" H 7000 5950 60  0000 C CNN
-	1    7000 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 4900 7300 4900
 Wire Wire Line
@@ -2197,4 +2186,57 @@ ADC_DOUTA
 Connection ~ 6550 4700
 Text Label 6050 4700 0    60   ~ 0
 ADC_CSn
+$Comp
+L GND #PWR?
+U 1 1 51818DFF
+P 7000 5950
+F 0 "#PWR?" H 7000 5950 30  0001 C CNN
+F 1 "GND" H 7000 5880 30  0001 C CNN
+F 2 "" H 7000 5950 60  0000 C CNN
+F 3 "" H 7000 5950 60  0000 C CNN
+	1    7000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 5181821D
+P 6700 4150
+F 0 "P?" V 6650 4150 40  0000 C CNN
+F 1 "ADC_DOUT_Bypass" V 6750 4150 40  0000 C CNN
+F 2 "~" H 6700 4150 60  0000 C CNN
+F 3 "~" H 6700 4150 60  0000 C CNN
+	1    6700 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 5181822C
+P 6650 6600
+F 0 "P?" V 6600 6600 40  0000 C CNN
+F 1 "ADC_DOUTB_Bypass" V 6700 6600 40  0000 C CNN
+F 2 "~" H 6650 6600 60  0000 C CNN
+F 3 "~" H 6650 6600 60  0000 C CNN
+	1    6650 6600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6750 6250 7000 6250
+Wire Wire Line
+	7000 6250 7000 6150
+Connection ~ 7000 6150
+Wire Wire Line
+	6500 6250 6550 6250
+Connection ~ 6500 6100
+Wire Wire Line
+	7050 4900 7050 4500
+Wire Wire Line
+	7050 4500 6800 4500
+Connection ~ 7050 4900
+Wire Wire Line
+	6600 4500 5950 4500
+Wire Wire Line
+	5950 4500 5950 5050
+Wire Wire Line
+	5950 5050 6500 5050
+Connection ~ 6500 5050
 $EndSCHEMATC

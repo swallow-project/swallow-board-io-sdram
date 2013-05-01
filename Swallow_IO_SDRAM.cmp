@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 01 May 2013 21:29:50 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 01 May 2013 21:48:14 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -173,6 +173,20 @@ TimeStamp = /5180E93B;
 Reference = P15;
 ValeurCmp = +5V_In;
 IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5181822C;
+Reference = P16;
+ValeurCmp = ADC_DOUTB_Bypass;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5181821D;
+Reference = P17;
+ValeurCmp = ADC_DOUT_Bypass;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
