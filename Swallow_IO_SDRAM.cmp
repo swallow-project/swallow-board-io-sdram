@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 01 May 2013 20:03:02 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 01 May 2013 21:29:50 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -241,7 +241,7 @@ EndCmp
 BeginCmp
 TimeStamp = /517B0309;
 Reference = U8;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = R_CAY-16;
 EndCmp
 
@@ -262,8 +262,15 @@ EndCmp
 BeginCmp
 TimeStamp = /51816B16;
 Reference = U11;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = R_CAY-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /51817CF6;
+Reference = U12;
+ValeurCmp = SN74CBTD3306;
+IdModule  = SO8N;
 EndCmp
 
 EndListe
