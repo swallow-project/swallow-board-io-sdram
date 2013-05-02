@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 01 May 2013 23:36:36 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 02 May 2013 16:58:23 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -66,6 +66,20 @@ EndCmp
 BeginCmp
 TimeStamp = /517D63FA;
 Reference = H2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182D0AC;
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5182D0BB;
+Reference = H4;
 ValeurCmp = MOUNTING_HOLE;
 IdModule  = Mounting_Hole-3mm;
 EndCmp
@@ -185,7 +199,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5181821D;
 Reference = P17;
-ValeurCmp = ADC_DOUT_Bypass;
+ValeurCmp = ADC_DOUTA_Bypass;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -248,7 +262,7 @@ EndCmp
 BeginCmp
 TimeStamp = /515D6280;
 Reference = U7;
-ValeurCmp = 3k3;
+ValeurCmp = 2k;
 IdModule  = YC124-JR;
 EndCmp
 
