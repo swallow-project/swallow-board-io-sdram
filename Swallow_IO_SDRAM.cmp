@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 02 May 2013 16:58:23 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 02 May 2013 17:46:13 BST
 
 BeginCmp
 TimeStamp = /517AEC4C;
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /51817CF6;
 Reference = U12;
 ValeurCmp = SN74CBTD3306;
-IdModule  = SO8N;
+IdModule  = SO8E;
 EndCmp
 
 EndListe
