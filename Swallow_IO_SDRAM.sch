@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 02 May 2013 18:24:46 BST
+EESchema Schematic File Version 2  date Fri 03 May 2013 10:22:39 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Swallow_IO_SDRAM.sch"
-Date "2 may 2013"
+Date "3 may 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -191,44 +191,44 @@ P8C7
 $Comp
 L CONN_16 P5
 U 1 1 5160CB4E
-P 10700 3200
-F 0 "P5" V 10660 3200 60  0000 C CNN
-F 1 "Swallow_V2_Core2_I/O" V 10780 3200 60  0000 C CNN
-F 2 "pin_array_8x2" H 10700 3200 60  0001 C CNN
-F 3 "" H 10700 3200 60  0001 C CNN
-	1    10700 3200
+P 10950 3200
+F 0 "P5" V 10910 3200 60  0000 C CNN
+F 1 "Swallow_V2_Core2_I/O" V 11030 3200 60  0000 C CNN
+F 2 "pin_array_8x2" H 10950 3200 60  0001 C CNN
+F 3 "" H 10950 3200 60  0001 C CNN
+	1    10950 3200
 	1    0    0    -1  
 $EndComp
-Text Label 10050 2500 0    60   ~ 0
+Text Label 10300 2500 0    60   ~ 0
 P8C0
-Text Label 10050 2700 0    60   ~ 0
+Text Label 10300 2700 0    60   ~ 0
 P8C1
-Text Label 10050 2400 0    60   ~ 0
+Text Label 10300 2400 0    60   ~ 0
 P8C2
-Text Label 10050 2600 0    60   ~ 0
+Text Label 10300 2600 0    60   ~ 0
 P8C3
-Text Label 10050 2800 0    60   ~ 0
+Text Label 10300 2800 0    60   ~ 0
 P8C4
-Text Label 10050 3000 0    60   ~ 0
+Text Label 10300 3000 0    60   ~ 0
 P8C5
-Text Label 10050 2900 0    60   ~ 0
+Text Label 10300 2900 0    60   ~ 0
 P8C6
-Text Label 10050 3100 0    60   ~ 0
+Text Label 10300 3100 0    60   ~ 0
 P8C7
 $Comp
 L GND #PWR03
 U 1 1 5160D47B
-P 10200 3850
-F 0 "#PWR03" H 10200 3850 30  0001 C CNN
-F 1 "GND" H 10200 3780 30  0001 C CNN
-F 2 "" H 10200 3850 60  0001 C CNN
-F 3 "" H 10200 3850 60  0001 C CNN
-	1    10200 3850
+P 10450 3850
+F 0 "#PWR03" H 10450 3850 30  0001 C CNN
+F 1 "GND" H 10450 3780 30  0001 C CNN
+F 2 "" H 10450 3850 60  0001 C CNN
+F 3 "" H 10450 3850 60  0001 C CNN
+	1    10450 3850
 	1    0    0    -1  
 $EndComp
-Text Label 10300 3600 2    60   ~ 0
+Text Label 10550 3600 2    60   ~ 0
 Adr_Clk
-Text Label 10250 3400 2    60   ~ 0
+Text Label 10500 3400 2    60   ~ 0
 CLK
 Text Notes 6900 600  2    60   ~ 0
 Byte-data 256Mbit SDRAM
@@ -497,11 +497,11 @@ F 3 "" H 9100 6900 60  0001 C CNN
 	1    9100 6900
 	1    0    0    -1  
 $EndComp
-Text Label 10050 3700 0    60   ~ 0
+Text Label 10300 3700 0    60   ~ 0
 RAS_n
-Text Label 10050 3500 0    60   ~ 0
+Text Label 10300 3500 0    60   ~ 0
 CAS_n
-Text Label 10050 3300 0    60   ~ 0
+Text Label 10300 3300 0    60   ~ 0
 WE_n
 Text Label 4600 2200 0    60   ~ 0
 CKE
@@ -566,7 +566,7 @@ F 3 "" H 10400 6650 60  0001 C CNN
 $EndComp
 Text Label 9950 6850 0    60   ~ 0
 Vdd_Swallow
-Text Label 10300 4100 2    60   ~ 0
+Text Label 10550 4100 2    60   ~ 0
 Vdd_Swallow
 $Comp
 L CONN_2 P4
@@ -979,7 +979,7 @@ F 3 "" H 3900 2700 60  0000 C CNN
 	1    3900 2700
 	1    0    0    -1  
 $EndComp
-Text Label 10050 3200 0    60   ~ 0
+Text Label 10300 3200 0    60   ~ 0
 CS_n
 Text Label 750  2600 0    60   ~ 0
 ADC_CSn
@@ -1007,17 +1007,17 @@ F 3 "" H 2150 2450 60  0000 C CNN
 	1    2150 2450
 	1    0    0    -1  
 $EndComp
-Text Label 9600 2700 0    60   ~ 0
+Text Label 9850 2700 0    60   ~ 0
 ADC_A1
-Text Label 9600 2500 0    60   ~ 0
+Text Label 9850 2500 0    60   ~ 0
 ADC_A0
-Text Label 9600 2400 0    60   ~ 0
+Text Label 9850 2400 0    60   ~ 0
 ADC_A2
-Text Label 9900 3400 2    60   ~ 0
+Text Label 10150 3400 2    60   ~ 0
 ADC_SCLK
-Text Label 9900 3500 2    60   ~ 0
+Text Label 10150 3500 2    60   ~ 0
 ADC_DOUTA
-Text Label 9900 3700 2    60   ~ 0
+Text Label 10150 3700 2    60   ~ 0
 ADC_DOUTB
 Text Label 750  6000 0    60   ~ 0
 Cores_T+
@@ -1584,6 +1584,38 @@ Text Notes 8150 4450 0    99   ~ 0
 Power Supplies\nand jumpers
 Text Notes 8100 3200 0    99   ~ 0
 Swallow\nreset\npassthrough
+Text Notes 9450 2250 0    99   ~ 0
+Swallow I/O header
+Text Notes 3550 7300 0    99   ~ 0
+Mechanicals
+Text Notes 4700 6650 0    59   ~ 0
+Range set\nto 0-2.5V
+Text Notes 7800 2650 0    79   Italic 0
+Simon Hollis\nsimon@cs.bris.ac.uk\nApril/May 2013
+Text Notes 7800 2150 0    79   Italic 0
+Swallow SDRAM &\nPower measurement\nBoard
+$Comp
+L MOUNTING_HOLE H3
+U 1 1 5182D0AC
+P 5750 7400
+F 0 "H3" H 5750 7250 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 5750 7550 30  0000 C CNN
+F 2 "Mounting_Hole-3mm" H 5750 7400 60  0001 C CNN
+F 3 "~" H 5750 7400 60  0000 C CNN
+	1    5750 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE H4
+U 1 1 5182D0BB
+P 6250 7400
+F 0 "H4" H 6250 7250 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 6250 7550 30  0000 C CNN
+F 2 "Mounting_Hole-3mm" H 6250 7400 60  0001 C CNN
+F 3 "~" H 6250 7400 60  0000 C CNN
+	1    6250 7400
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3200 1050 2550 1050
 Wire Wire Line
@@ -1707,37 +1739,37 @@ Wire Wire Line
 Wire Wire Line
 	6900 2300 7150 2300
 Wire Wire Line
-	9550 2400 10350 2400
+	9800 2400 10600 2400
 Wire Wire Line
-	9550 2500 10350 2500
+	9800 2500 10600 2500
 Wire Wire Line
-	10350 2600 10000 2600
+	10600 2600 10250 2600
 Wire Wire Line
-	9550 2700 10350 2700
+	9800 2700 10600 2700
 Wire Wire Line
-	10350 2800 10000 2800
+	10600 2800 10250 2800
 Wire Wire Line
-	10350 2900 10000 2900
+	10600 2900 10250 2900
 Wire Wire Line
-	10350 3000 10000 3000
+	10600 3000 10250 3000
 Wire Wire Line
-	10350 3100 10000 3100
+	10600 3100 10250 3100
 Wire Wire Line
-	10350 3200 10000 3200
+	10600 3200 10250 3200
 Wire Wire Line
-	10350 3300 10000 3300
+	10600 3300 10250 3300
 Wire Wire Line
-	9600 3400 10350 3400
+	9850 3400 10600 3400
 Wire Wire Line
-	9600 3500 10350 3500
+	9850 3500 10600 3500
 Wire Wire Line
-	10350 3600 10000 3600
+	10600 3600 10250 3600
 Wire Wire Line
-	9600 3700 10350 3700
+	9850 3700 10600 3700
 Wire Wire Line
-	10200 3850 10200 3800
+	10450 3850 10450 3800
 Wire Wire Line
-	10200 3800 10350 3800
+	10450 3800 10600 3800
 Wire Wire Line
 	8650 4950 8650 5100
 Wire Wire Line
@@ -1818,9 +1850,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 2100 6900 2100
 Wire Wire Line
-	10200 4100 10350 4100
+	10450 4100 10600 4100
 Wire Wire Line
-	10350 4100 10350 3900
+	10600 4100 10600 3900
 Wire Wire Line
 	3900 800  3900 900 
 Wire Wire Line
@@ -2284,8 +2316,6 @@ Wire Notes Line
 	9300 2100 11150 2100
 Wire Notes Line
 	11150 2100 11150 4200
-Text Notes 9450 2250 0    99   ~ 0
-Swallow I/O header
 Wire Notes Line
 	7950 3050 9100 3050
 Wire Notes Line
@@ -2302,34 +2332,50 @@ Wire Notes Line
 	6700 7700 3500 7700
 Wire Notes Line
 	3500 7700 3500 7150
-Text Notes 3550 7300 0    99   ~ 0
-Mechanicals
-Text Notes 4700 6650 0    59   ~ 0
-Range set\nto 0-2.5V
-Text Notes 7800 2650 0    79   Italic 0
-Simon Hollis\nsimon@cs.bris.ac.uk\nApril/May 2013
-Text Notes 7800 2150 0    79   Italic 0
-Swallow SDRAM &\nPower measurement\nBoard
 $Comp
-L MOUNTING_HOLE H3
-U 1 1 5182D0AC
-P 5750 7400
-F 0 "H3" H 5750 7250 60  0000 C CNN
-F 1 "MOUNTING_HOLE" H 5750 7550 30  0000 C CNN
-F 2 "Mounting_Hole-3mm" H 5750 7400 60  0001 C CNN
-F 3 "~" H 5750 7400 60  0000 C CNN
-	1    5750 7400
+L CONN_4 P18
+U 1 1 5183880B
+P 11100 1100
+F 0 "P18" V 11050 1100 50  0000 C CNN
+F 1 "1-bits_1" V 11150 1100 40  0000 C CNN
+F 2 "~" H 11100 1100 60  0000 C CNN
+F 3 "~" H 11100 1100 60  0000 C CNN
+	1    11100 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE H4
-U 1 1 5182D0BB
-P 6250 7400
-F 0 "H4" H 6250 7250 60  0000 C CNN
-F 1 "MOUNTING_HOLE" H 6250 7550 30  0000 C CNN
-F 2 "Mounting_Hole-3mm" H 6250 7400 60  0001 C CNN
-F 3 "~" H 6250 7400 60  0000 C CNN
-	1    6250 7400
+L CONN_2 P19
+U 1 1 5183881A
+P 11100 1550
+F 0 "P19" V 11050 1550 50  0000 C CNN
+F 1 "1-bits_2" V 11150 1550 40  0000 C CNN
+F 2 "~" H 11100 1550 60  0000 C CNN
+F 3 "~" H 11100 1550 60  0000 C CNN
+	1    11100 1550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10500 950  10750 950 
+Wire Wire Line
+	10500 1050 10750 1050
+Wire Wire Line
+	10500 1150 10750 1150
+Wire Wire Line
+	10500 1450 10750 1450
+Text Label 10500 1050 0    39   ~ 0
+Adr_Clk
+Text Label 10500 950  0    39   ~ 0
+ADC_DOUTB
+Text Label 10500 1250 0    39   ~ 0
+ADC_SCLK
+Text Label 10500 1150 0    39   ~ 0
+ADC_DOUTA
+Text Label 10500 1450 0    39   ~ 0
+ADC_CSn
+Text Label 10500 1650 0    39   ~ 0
+WE_n
+Wire Wire Line
+	10750 1250 10500 1250
+Wire Wire Line
+	10750 1650 10500 1650
 $EndSCHEMATC
