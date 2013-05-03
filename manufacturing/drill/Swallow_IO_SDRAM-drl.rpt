@@ -1,0 +1,15 @@
+Drill report for /home/harry/work/kicad/Swallow_IO_SDRAM/Swallow_IO_SDRAM.kicad_pcb
+Created on Fri 03 May 2013 13:48:41 BST
+Drill report for plated through holes :
+T1  0.30mm  0.012"  (102 holes)
+T2  1.02mm  0.040"  (56 holes)
+
+Total plated holes count 158
+
+
+Drill report for unplated through holes :
+T1  3.00mm  0.118"  (4 holes)
+
+Total unplated holes count 4
+
+

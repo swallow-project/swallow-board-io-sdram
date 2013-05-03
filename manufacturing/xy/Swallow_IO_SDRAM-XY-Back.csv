@@ -1,0 +1,10 @@
+Component XY position data,,,,,,
+Swallow_IO_SDRAM board,,,,,,
+,,,,,,
+,,,,,,
+Ref,Val,Package,PosX,PosY,Rot,Side
+C1,470n,SM0805,22.405,-60.925,270,B.Cu
+C2,470n,SM0805,19.025,-60.545,90,B.Cu
+C4,10u,SM1206,20.965,-77.345,0,B.Cu
+U3,74LS574,SO20L,8.44,-33.52,0,B.Cu
+U6,74LS574,SO20L,8.44,-46.59,0,B.Cu

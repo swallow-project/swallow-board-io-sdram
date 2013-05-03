@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 03 May 2013 10:22:39 BST
+EESchema Schematic File Version 2  date Fri 03 May 2013 13:56:19 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2378,4 +2378,14 @@ Wire Wire Line
 	10750 1250 10500 1250
 Wire Wire Line
 	10750 1650 10500 1650
+Wire Notes Line
+	10500 500  10500 1950
+Wire Notes Line
+	10500 1950 11200 1950
+Wire Notes Line
+	11200 1950 11200 500 
+Wire Notes Line
+	11200 500  10500 500 
+Text Notes 10600 650  0    60   ~ 0
+1-bit port\nprobes
 $EndSCHEMATC
